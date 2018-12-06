@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.text-center{
+    text-align: center;
+}
+.page-title{
+    margin: 40px 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color:#000;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    width: 50px;
+    text-align: center;
+}
+.btn:active {
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.box{
+    width: 720px;
+    margin: 24px auto 32px;
+    font-size: 18px;
+}
+
+.box-title{
+    display: inline-block;
+    width: 240px;
+    font-weight: bold;
+    /* text-align: right; */
+}
+
+.easy{
+    background: #98fb98;
+}
+
+.normal{
+    background: #ffffe0;
+}
+
+.hard{
+    background: #ff69b4;
+}
+
+.ai{
+    background: #99CCFF;
+}
+
+.exp-wrapper{
+    width: 540px;
+    margin: 100px auto;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.fwb{
+    font-weight: bold;
+}
+
+.img-wrapper{
+    width:120px;
+    height: 120px;
+    margin: 24px auto 24px;
+}
